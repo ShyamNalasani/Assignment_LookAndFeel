@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+    <style>
+
+
+        body {
+            background-color: black;
+            font-family: Arial;
+        }
+
+        /* Center website */
+        .main {
+            width: 100%;
+            margin: auto;
+        }
+
+        h1 {
+            color: #4CAF50;
+            font-size: 50px;
+            word-break: break-all;
+        }
+        p {
+            color: white;
+            
+        }
+        h2 {
+            color: white;
+        }
+        
+
+        .row {
+            margin: 8px -16px;
+        }
+
+            /* Add padding BETWEEN each column */
+            .row, .row > .column {
+                padding: 10px;
+            }
+
+        /* Create four equal columns that floats next to each other */
+        .column {
+            float: left;
+            width: 30%;
+        }
+
+        /* Clear floats after rows */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* Content */
+        .content {
+            background-color: white;
+            padding: 10px;
+        }
+
+        /* Responsive layout - makes a two column-layout instead of four columns */
+        @media screen and (max-width: 600px) {
+            .column {
+                width: 50%;
+            }
+        }
+
+        /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+        @media screen and (max-width: 300px) {
+            .column {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="topnav">
+        <a class="active" href="index.html">Project</a>
+        <a href="table1.html">TABLE1</a>
+        <a href="table2.html">TABLE2</a>
+        <a href="table3.html">TABLE3</a>
+        <a href="team.html">ABOUT US</a>
+    </div>
+
+    <!-- MAIN (Center website) -->
+    <div class="main">
+
+        <h1>About Project</h1>
+        <p>ABC</p>
+        <hr>
+
+        <h2>PORTFOLIO</h2>
+
+        <!-- Portfolio Gallery Grid -->
+        <div class="row">
+            <div class="column">
+                <div class="content">
+                    <!--<img src="pro_pic_1.jpg" alt="Mountains" style="width:100%">-->
+                    <h3>Pavan</h3>
+                    <p>Worked on ....</p>
+                    <a href="https://github.com/pavandatla23/Binary_Search">Git</a>
+                </div>
+            </div>
+            <div class="column">
+                <div class="content">
+                    <!--<img src="pro_pic_2.jpg" alt="Lights" style="width:100%">-->
+                    <h3>Shyam</h3>
+                    <p>Worked on ...... </p>
+                    <a href="https://github.com/pavandatla23/Binary_Search">Git</a>
+                </div>
+            </div>
+            <div class="column">
+                <div class="content">
+                    <!--<img src="pro_pic_3.jpg" alt="Nature" style="width:100%">-->
+                    <h3>Ajith</h3>
+                    <p>Worked on .....</p>
+                    <a href="https://github.com/pavandatla23/Binary_Search">Git</a>
+                </div>
+            </div>
+            <div class="column">
+                <div class="content">
+                    <!--<img src="pro_pic_2.jpg" alt="Lights" style="width:100%">-->
+                    <h3>Yashwanth</h3>
+                    <p>Worked on ...... </p>
+                    <a href="https://github.com/pavandatla23/Binary_Search">Git</a>
+                </div>
+            </div>
+
+            <!-- END GRID -->
+        <!--</div>
+        <h3>Database model driving the website</h3>
+        <div class="content">
+            <img src="screenshot.jpg" alt="Bear" style="width:50% height:50%">
+
+        </div>-->
+
+
+
+        <!-- END MAIN -->
+    </div>
+
+</body>
+</html>
